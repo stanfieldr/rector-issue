@@ -1,0 +1,14 @@
+{
+    "name": "stanfieldr/rector-example",
+    "description": "An example of RemoveParentCallWithoutParentRector failing",
+    "type": "project",
+    "license": "GPLv3",
+    "autoload": {
+        "psr-4": {
+            "Stanfieldr\\": "src/"
+        }
+    },
+    "require-dev": {
+        "rector/rector": "^0.18.12"
+    }
+}
